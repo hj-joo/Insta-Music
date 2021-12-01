@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/infeed"
+    tools:context=".activity_instafeed"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="55dp"
+    android:text="ju_hyeoungjun"
+    android:textSize="16dp"
+    android:textColor="#00ff0000">
+
+
+
+</TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="543dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="40dp"
+        android:orientation="horizontal"
+        >
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+
+        android:background="#00ff0000">
+
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16dp"
+
+        android:layout_gravity="center_vertical"
+
+        android:textColor="@color/white">
+    </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="17dp"
+        android:text="ju_hyeoungjun   DYNAMITE"
+        android:textSize="16dp"
+        android:textColor="#00ff0000">
+    </TextView>
+</LinearLayout>
